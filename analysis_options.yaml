@@ -1,0 +1,41 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: warning
+    missing_required_param: warning
+    missing_return: warning
+  exclude:
+    - lib/generated/*.dart
+    - lib/generated/*/*.dart
+    - lib/injections/modules.config.dart
+    - lib/*/**.g.dart
+    - lib/*/**.gr.dart
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
+    avoid_redundant_argument_values: true
+    avoid_shadowing_type_parameters: true
+    unnecessary_lambdas: true
+    sort_pub_dependencies: true
+    omit_local_variable_types: false
+    always_use_package_imports: true
+    annotate_overrides: true
+    avoid_escaping_inner_quotes: true
+    avoid_function_literals_in_foreach_calls: true
+    avoid_implementing_value_types: true
+    avoid_init_to_null: true
+    avoid_unnecessary_containers: true
+    avoid_unused_constructor_parameters: true
+    curly_braces_in_flow_control_structures: true
+    library_prefixes: true
+    no_duplicate_case_values: true
+    prefer_const_declarations: true
+    prefer_contains: true
+    prefer_final_fields: true
+    prefer_final_locals: true
+    sized_box_for_whitespace: true
+    unnecessary_const: true
+    unnecessary_overrides: true
+    unrelated_type_equality_checks: true
